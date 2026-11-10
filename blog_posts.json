@@ -3,12 +3,21 @@
         "id": 1,
         "author": "John Doe",
         "title": "First Post",
-        "content": "This is my first post."
+        "content": "This is my first post.Ivan",
+        "likes": 1
     },
     {
         "id": 3,
         "author": "Ivan",
         "title": "Being a good Ivan",
-        "content": "Its hard"
+        "content": "Its hard",
+        "likes": 1
+    },
+    {
+        "id": 4,
+        "author": "John Ivan",
+        "title": "Happy",
+        "content": "John",
+        "likes": 6
     }
 ]

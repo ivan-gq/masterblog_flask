@@ -19,8 +19,16 @@
         <p><em>Written by {{ post.author }}</em></p>
         <p>{{ post.content }}</p>
         
-        <!-- Delete Button/Link -->
+        <!-- Action Buttons & Like Counter -->
         <div style="margin-top: 15px;">
+            <a href="{{ url_for('like', id=post.id) }}" 
+               style="color: white; background-color: #008CBA; padding: 5px 10px; text-decoration: none; border-radius: 4px; font-size: 0.9em; margin-right: 10px;">
+               👍 Like ({{ post.get('likes', 0) }})
+            </a>
+            <a href="{{ url_for('update', post_id=post.id) }}" 
+               style="color: white; background-color: #4CAF50; padding: 5px 10px; text-decoration: none; border-radius: 4px; font-size: 0.9em; margin-right: 10px;">
+               Update Post
+            </a>
             <a href="{{ url_for('delete', post_id=post.id) }}" 
                style="color: white; background-color: #ff4c4c; padding: 5px 10px; text-decoration: none; border-radius: 4px; font-size: 0.9em;">
                Delete Post
