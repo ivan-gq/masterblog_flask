@@ -1,5 +1,14 @@
 [
-    {"id": 1, "author": "John Doe", "title": "First Post", "content": "This is my first post."},
-    {"id": 2, "author": "Jane Doe", "title": "Second Post", "content": "This is another post."}
-    # More blog posts can go here...
+    {
+        "id": 1,
+        "author": "John Doe",
+        "title": "First Post",
+        "content": "This is my first post."
+    },
+    {
+        "id": 3,
+        "author": "Ivan",
+        "title": "Being a good Ivan",
+        "content": "Its hard"
+    }
 ]
